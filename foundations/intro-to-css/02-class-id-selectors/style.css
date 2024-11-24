@@ -1,7 +1,11 @@
 /* styles.css */
 
-.odd-line{
+.odd-line {
     background-color: palevioletred;
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
 
+#second {
+    color: blue;
+    font-size: 36px
+}
