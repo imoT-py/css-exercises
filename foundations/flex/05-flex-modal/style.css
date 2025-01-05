@@ -92,3 +92,7 @@ button.cancel {
 .buttons {
   margin-top: 16px;
 }
+
+.left-links {
+  margin-right: auto;
+}
