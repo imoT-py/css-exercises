@@ -19,6 +19,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
+  font-weight: 600;
+  color: rgb(111, 111, 112);
 }
 
 input {
@@ -26,7 +29,7 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  
+  margin-top: 15px;
 }
 
 .header {
@@ -57,12 +60,16 @@ ul {
 a {
   /* this removes the line under the links */
   text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color:rgb(160, 156, 156);
 }
 
 .footer{
   display: flex;
   width: 100vw;
   align-content:  flex-end;
+  background-color: #eeeeee;
 }
 
 .content {
@@ -78,3 +85,7 @@ a {
 
 }
 
+.buttons {
+  margin-top: 15px;
+  gap: 10px;
+}
